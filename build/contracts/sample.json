@@ -1,0 +1,430 @@
+{
+  "contractName": "sample",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "email",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "phoneNo",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"email\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"phoneNo\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/sample.sol\":\"sample\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/sample.sol\":{\"keccak256\":\"0xcfe7f98475f48892997c6f6b30327fa15fe89107697fb0932d8a037c953937b7\",\"urls\":[\"bzz-raw://8057da3a45759b1009346b15046587afd204bdc11e9dcf01a34fe21b0e282dba\",\"dweb:/ipfs/QmZfr9EWskGdJMCiGUCb8YvoT8y9tCbr2zcWcHa8Gpvq7Z\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280601081526020017f4441505020646576656c6f706d656e74000000000000000000000000000000008152506000908051906020019061004f9291906100fa565b506040518060400160405280600a81526020017f39383736353433323139000000000000000000000000000000000000000000008152506001908051906020019061009b9291906100fa565b506040518060400160405280601281526020017f736e61697231313940676d61696c2e636f6d0000000000000000000000000000815250600290805190602001906100e79291906100fa565b503480156100f457600080fd5b5061019f565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061013b57805160ff1916838001178555610169565b82800160010185558215610169579182015b8281111561016857825182559160200191906001019061014d565b5b509050610176919061017a565b5090565b61019c91905b80821115610198576000816000905550600101610180565b5090565b90565b6103de806101ae6000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806306fdde031461004657806323843e44146100c9578063820e93f51461014c575b600080fd5b61004e6101cf565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561008e578082015181840152602081019050610073565b50505050905090810190601f1680156100bb5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100d161026d565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156101115780820151818401526020810190506100f6565b50505050905090810190601f16801561013e5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61015461030b565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610194578082015181840152602081019050610179565b50505050905090810190601f1680156101c15780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102655780601f1061023a57610100808354040283529160200191610265565b820191906000526020600020905b81548152906001019060200180831161024857829003601f168201915b505050505081565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103035780601f106102d857610100808354040283529160200191610303565b820191906000526020600020905b8154815290600101906020018083116102e657829003601f168201915b505050505081565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a15780601f10610376576101008083540402835291602001916103a1565b820191906000526020600020905b81548152906001019060200180831161038457829003601f168201915b50505050508156fea265627a7a723158205b5e37cf51a9ee57a1a645957246b567002d8f6dfe2054aefbd1409b9855d10e64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806306fdde031461004657806323843e44146100c9578063820e93f51461014c575b600080fd5b61004e6101cf565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561008e578082015181840152602081019050610073565b50505050905090810190601f1680156100bb5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100d161026d565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156101115780820151818401526020810190506100f6565b50505050905090810190601f16801561013e5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61015461030b565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610194578082015181840152602081019050610179565b50505050905090810190601f1680156101c15780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102655780601f1061023a57610100808354040283529160200191610265565b820191906000526020600020905b81548152906001019060200180831161024857829003601f168201915b505050505081565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103035780601f106102d857610100808354040283529160200191610303565b820191906000526020600020905b8154815290600101906020018083116102e657829003601f168201915b505050505081565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a15780601f10610376576101008083540402835291602001916103a1565b820191906000526020600020905b81548152906001019060200180831161038457829003601f168201915b50505050508156fea265627a7a723158205b5e37cf51a9ee57a1a645957246b567002d8f6dfe2054aefbd1409b9855d10e64736f6c63430005100032",
+  "sourceMap": "69:149:2:-;;;90:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;133:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;173:41;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;69:149;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:149:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "69:149:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:149:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;90:38;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;90:38:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;133:35;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;133:35:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;173:41;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;173:41:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;90:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;133:35::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;173:41::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.8.0;\r\n\r\ncontract sample {\r\n  string public name =\"DAPP development\";\r\n  string public phoneNo =\"9876543219\";\r\n  string public email ='snair119@gmail.com';\r\n}",
+  "sourcePath": "C:\\Users\\shrut\\Desktop\\HenryHarvin\\contracts\\sample.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/sample.sol",
+    "exportedSymbols": {
+      "sample": [
+        87
+      ]
+    },
+    "id": 88,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 77,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 87,
+        "linearizedBaseContracts": [
+          87
+        ],
+        "name": "sample",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 80,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 87,
+            "src": "90:38:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 78,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "90:6:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4441505020646576656c6f706d656e74",
+              "id": 79,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "110:18:2",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_c31028a387def8d77a62e2b448f77035969c1b83e24c40cec3b39ebc76c50d80",
+                "typeString": "literal_string \"DAPP development\""
+              },
+              "value": "DAPP development"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 83,
+            "name": "phoneNo",
+            "nodeType": "VariableDeclaration",
+            "scope": 87,
+            "src": "133:35:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 81,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "133:6:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "39383736353433323139",
+              "id": 82,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "156:12:2",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_7808509b04915988c67eaae69e7c10dfdbdc7ed3cf6cd30a7276e8093bc49af9",
+                "typeString": "literal_string \"9876543219\""
+              },
+              "value": "9876543219"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 86,
+            "name": "email",
+            "nodeType": "VariableDeclaration",
+            "scope": 87,
+            "src": "173:41:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 84,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "173:6:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "736e61697231313940676d61696c2e636f6d",
+              "id": 85,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "194:20:2",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_cd7fca5e7182f9dc4510830193e20b86bbee5f054c12b46f3760847e9da9997c",
+                "typeString": "literal_string \"snair119@gmail.com\""
+              },
+              "value": "snair119@gmail.com"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 88,
+        "src": "69:149:2"
+      }
+    ],
+    "src": "33:185:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/sample.sol",
+      "exportedSymbols": {
+        "sample": [
+          87
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.8",
+            ".0"
+          ]
+        },
+        "id": 77,
+        "name": "PragmaDirective",
+        "src": "33:32:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            87
+          ],
+          "name": "sample",
+          "scope": 88
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "name",
+              "scope": 87,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 78,
+                "name": "ElementaryTypeName",
+                "src": "90:6:2"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "4441505020646576656c6f706d656e74",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"DAPP development\"",
+                  "value": "DAPP development"
+                },
+                "id": 79,
+                "name": "Literal",
+                "src": "110:18:2"
+              }
+            ],
+            "id": 80,
+            "name": "VariableDeclaration",
+            "src": "90:38:2"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "phoneNo",
+              "scope": 87,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 81,
+                "name": "ElementaryTypeName",
+                "src": "133:6:2"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "39383736353433323139",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"9876543219\"",
+                  "value": "9876543219"
+                },
+                "id": 82,
+                "name": "Literal",
+                "src": "156:12:2"
+              }
+            ],
+            "id": 83,
+            "name": "VariableDeclaration",
+            "src": "133:35:2"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "email",
+              "scope": 87,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 84,
+                "name": "ElementaryTypeName",
+                "src": "173:6:2"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "736e61697231313940676d61696c2e636f6d",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"snair119@gmail.com\"",
+                  "value": "snair119@gmail.com"
+                },
+                "id": 85,
+                "name": "Literal",
+                "src": "194:20:2"
+              }
+            ],
+            "id": 86,
+            "name": "VariableDeclaration",
+            "src": "173:41:2"
+          }
+        ],
+        "id": 87,
+        "name": "ContractDefinition",
+        "src": "69:149:2"
+      }
+    ],
+    "id": 88,
+    "name": "SourceUnit",
+    "src": "33:185:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x56D2356A2982b42051b22Ec3a86819264602B574",
+      "transactionHash": "0x10b45a9460bb9e0b446a42140b273b4f388ada4972ebbff1b8b2fbdd5b0833b6"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-08-14T15:26:20.975Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
